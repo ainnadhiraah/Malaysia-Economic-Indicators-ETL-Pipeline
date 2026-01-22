@@ -1,0 +1,27 @@
+sources:
+    - name: PPI
+      type: API
+      frequency: Monthly
+      url: https://api.data.gov.my/data-catalogue?id=ppi&limit=1000
+      last_updated: "2024-03-01"
+
+
+    - name: WholesaleRetail
+      type: API
+      frequency: Monthly
+      url: https://api.data.gov.my/data-catalogue?id=iowrt&limit=1000
+      last_updated: "2024-03-01"
+
+
+    - name: GDP
+      type: API
+      frequency: Quarterly
+      url: https://api.data.gov.my/data-catalogue?id=gdp_qtr_real_sa_demand&limit=1000
+      last_updated: "2024-03-01"
+
+
+    - name: Productivity
+      type: API
+      frequency: Quarterly
+      url: https://api.data.gov.my/data-catalogue?id=productivity_qtr&limit=1000
+      last_updated: "2024-03-01"
